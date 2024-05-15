@@ -1,0 +1,68 @@
+body {
+    background-color: #F3F3F3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+.header-left, .header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; /* Ajusta a largura para criar duas colunas */
+}
+
+header img {
+    width: 100px;
+    height: 130px;
+}
+
+header #nomeProfissao {
+    /* Removido margin: 0 auto; pois não é necessário com flexbox */
+    /* Removido align-items e justify-content pois não aplicam diretamente a elementos não flex container */
+    width: 50%; /* Ajuste conforme necessário */
+}
+
+header #imagem {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white; 
+}
+
+header #nome {
+    font-weight: 900;
+    color: #0713FB;
+}
+
+main{
+    text-align: center;
+}
+
+main .titulo{
+    color: #0713FB;   
+}
+
+main #experiencias, main #cursos, main #skills {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+footer .titulo{
+    color: #0713FB;   
+}
